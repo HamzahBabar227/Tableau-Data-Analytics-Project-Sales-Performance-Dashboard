@@ -1,73 +1,68 @@
-Tableau Data Analytics Project – Sales Performance Dashboard
-Sales Performance & Customer Insights (Tableau)
+# Tableau Data Analytics Project – Sales Performance Dashboard
 
-This project delivers an end-to-end Tableau Sales Performance Dashboard built from stakeholder user stories to help sales managers and executives analyze year-over-year performance, identify trends, and make data-driven decisions using real-world sales data.
+## End-to-End Sales Performance Analysis with Tableau
 
-Business Context & User Story
+This project delivers an end-to-end Tableau data analytics solution that translates stakeholder user stories into interactive Sales Performance dashboards. It is designed to support sales managers and executives in analyzing year-over-year performance, trends, and product-level insights to drive data-informed decision-making.
 
-Sales leaders need a clear, high-level view of performance while retaining the ability to drill into trends and drivers.
-This project was designed to answer real business questions around:
+---
 
-How are sales, profit, and quantity performing year over year?
+## Project Overview
 
-Which months and weeks drive peak or underperformance?
+The objective of this project was to design and build executive-ready Tableau dashboards that provide a clear, high-level view of sales performance while enabling deeper analytical exploration.
 
-Which product subcategories contribute most to sales and profit?
+Using multi-table sales data, the dashboards answer real business questions related to sales growth, profitability, product performance, and weekly trends.
 
-Where should leadership focus attention based on trends and deviations?
+---
 
-Data Preparation & Modeling in Tableau
+## Data Preparation & Modeling in Tableau
 
-I began by connecting and modeling multiple CSV tables (Orders, Products, Customers, and Locations) directly in Tableau.
-Key steps included:
+The project began by extracting and integrating 10,000+ rows of sales data across multiple tables, including Orders, Products, Customers, and Locations.
 
-Validating joins and relationships across fact and dimension tables
+Key data engineering steps included:
+- Cleansing and validating data to handle missing values and inconsistencies
+- Verifying joins and relationships to ensure accurate aggregations
+- Enforcing correct data types and grain alignment
+- Building a scalable Tableau data model optimized for performance and reporting accuracy
 
-Enforcing correct data types and handling missing values
+These steps ensured reliable KPI reporting and analytical integrity.
 
-Verifying aggregates and totals to ensure reporting accuracy
+---
 
-This created a scalable and reliable data model for enterprise-style reporting.
+## Dashboard Design & Visualization
 
-Dashboard Design & Analytics
+Using Tableau Desktop, I built an interactive Sales Performance Dashboard featuring:
 
-Using stakeholder requirements, I built an interactive executive dashboard featuring:
+- KPI summary tiles for Total Sales, Profit, and Quantity with YoY comparison
+- Monthly time-series trends highlighting highest and lowest performing months
+- Product subcategory analysis comparing sales and profit side-by-side
+- Weekly sales and profit trends with average reference lines and conditional highlighting
+- Advanced tooltips to surface contextual metrics on hover
+- Interactive filters and dashboard actions to enable drill-down exploration
 
-KPI cards for Sales, Profit, and Quantity with current-year vs previous-year comparison
+Best-practice design principles were applied, including clean layouts, consistent color usage, reduced visual clutter, and executive-friendly labeling to deliver a polished, decision-ready dashboard.
 
-Monthly time-series trends with highest and lowest months clearly highlighted
+---
 
-Product subcategory comparisons showing sales alongside profit
+## Key Insights
 
-Weekly sales and profit trends with average reference lines and above/below indicators
+- Identified seasonal sales peaks and troughs through monthly trend analysis
+- Surfaced underperforming product subcategories by comparing sales versus profit
+- Highlighted above- and below-average weekly performance using reference lines
+- Enabled fast YoY performance comparison to support executive reporting and planning
 
-Interactive filters, parameters, calculated fields, and advanced tooltips for contextual insights
+---
 
-Design choices focused on clarity, consistency, and executive readability.
+## What I Learned
 
-Key Insights
+- Translating stakeholder requirements and user stories into analytical logic
+- Designing KPI frameworks aligned with business objectives
+- Building calculated fields, parameters, and YoY logic in Tableau
+- Creating interactive, user-focused dashboards for executive audiences
+- Using data visualization to convert raw data into actionable insights
 
-Clear seasonality in sales performance with identifiable peak and low months
+---
 
-Specific subcategories driving revenue but underperforming on profit
+## Main Takeaway
 
-Weekly volatility highlighted through average benchmarks and conditional indicators
+Data analytics is not about static reporting. By combining clean data models, strong KPI design, and interactive dashboards, Tableau becomes a powerful tool for uncovering performance drivers, identifying risks, and enabling confident, data-driven decisions.
 
-YoY comparisons surfaced growth areas and segments requiring intervention
-
-What I Learned
-
-Translating business user stories into analytical requirements
-
-Data modeling and validation directly within Tableau
-
-Building calculated fields, parameters, YoY logic, and KPI frameworks
-
-Designing interactive, executive-ready dashboards focused on decision-making
-
-Using visual cues and tooltips to surface insights without clutter
-
-Main Takeaway
-
-Data visualization is not just about reporting metrics.
-When built from business questions, dashboards become decision tools that guide strategy, highlight risk, and uncover opportunity.
